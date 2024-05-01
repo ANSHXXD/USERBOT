@@ -60,7 +60,7 @@ async def alive_function(message: Message, answers):
 <b> ➥ 𝗣𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝗩𝙴𝚁𝚂𝙸𝙾𝙽 :</b> <code>{pyrover}</code>
 <b> ➥ 𝗕𝙾𝚃 𝗨𝙿𝚃𝙸𝙼𝙴 :</b> <code>{uptime}</code>
 
-<b> ➣ 𝗗𝙸𝙲𝚃𝙰𝚃𝙾𝚁 𝗩𝙴𝚁𝚂𝙸𝙾𝙽 : 1.0</b>
+<b> ➣ 🄰𝙽𝚂𝙷 𝗩𝙴𝚁𝚂𝙸𝙾𝙽 : 1.0</b>
 """
     answers.append(
         InlineQueryResultArticle(
@@ -102,12 +102,12 @@ async def peler_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alive",
             description="Ɔнɛcκ βσт'ƨ Ƨтαтƨ",
-            thumb_url="https://telegra.ph/file/71fcc97ea73c5265d6925.jpg",
+            thumb_url="https://telegra.ph/file/7762428cd01eb8bcf7366.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ", url="https://t.me/SAIFALLBOT"), InlineKeyboardButton(text="𝐃ɪᴄᴛᴀᴛᴏʀ", url="https://t.me/SAIF_DICTATOR")], [InlineKeyboardButton(text="𝐌ᴇɴᴜ", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="𝐂ʜᴀɴɴᴇʟ", url="https://t.me/Ansh_xdz"), InlineKeyboardButton(text="𝐃ɪᴄᴛᴀᴛᴏʀ", url="https://t.me/osmium_xd")], [InlineKeyboardButton(text="𝐌ᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
@@ -120,7 +120,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="ᴄʜᴇᴄᴋ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ & ʜᴇʟᴘ",
-            thumb_url="https://telegra.ph/file/14a5eb1c01732e912ee32.jpg",
+            thumb_url="https://telegra.ph/file/7762428cd01eb8bcf7366.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
