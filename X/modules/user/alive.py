@@ -25,13 +25,13 @@ from .help import *
 modules = CMD_HELP
 alivemodules = CMD_HELP
 alive_logo = (
-    gvarstatus("ALIVE_LOGO") or "https://telegra.ph/file/71fcc97ea73c5265d6925.jpg"
+    gvarstatus("ALIVE_LOGO") or "https://telegra.ph/file/7762428cd01eb8bcf7366.jpg"
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "✧"
 alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ 𝐃ɪᴄᴛᴀᴛᴏʀ 𝐔sᴇʀ𝐁ᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ✧✧"
 
 
-@Client.on_message(filters.command(["alive", "dead"], cmd) & filters.me)
+@Client.on_message(filters.command(["alive", "dad"], cmd) & filters.me)
 async def alip(client: Client, message: Message):
     X = await edit_or_reply(message, "𝐃ɪᴄᴛᴀᴛᴏʀ 𝐔sᴇʀ𝐁ᴏᴛ")
     await asyncio.sleep(2)
@@ -46,8 +46,8 @@ async def alip(client: Client, message: Message):
         f"{emoji} <b>𝗩𝙴𝚁𝚂𝙸𝙾𝙽:</b> <code>{BOT_VER}</code> \n"
         f"{emoji} <b>𝗠𝙾𝚃𝙴𝚁𝚂:</b> <code>{len(modules)} Modules</code> \n"
         f"{emoji} <b>𝗣𝚈𝚃𝙷𝙾𝙽 𝗩𝙴𝚁𝚂𝙸𝙾𝙽:</b> <code>{python_version()}</code> \n"
-        f"{emoji}✧[𝗚𝚁𝙾𝚄𝙿](https://t.me/DEAD_GRPCHAT)** \n" 
-        f"{emoji}✧[𝗖𝙷𝙰𝙽𝙽𝙴𝙻](https://t.me/SAIFALLBOT)** \n"
+        f"{emoji}✧[𝗚𝚁𝙾𝚄𝙿](https://t.me/THE_CASTLESS)** \n" 
+        f"{emoji}✧[「🇦 𝐍 𝐒 𝐇 」🪽](https://t.me/osmium_xd)** \n"
         
     )
     try:
