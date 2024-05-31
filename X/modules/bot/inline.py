@@ -66,7 +66,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alipp",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/14a5eb1c01732e912ee32.jpg",
+            thumb_url="https://graph.org/file/33ed260fcfc79eb82838b.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -84,7 +84,7 @@ async def pingme(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await message.reply_text(
-        f"➥ ** 𝐃ɪᴄᴛᴀᴛᴏʀ 𝐔sᴇʀ𝐁ᴏᴛ **\n"
+        f"➥ ** 𝐀ηѕн 𝐔sᴇʀ𝐁ᴏᴛ **\n"
         f"├• **𝐏ɪɴɢᴇʀ** - `%sms`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ -** `{uptime}` \n"
         f"└• **𝐎ᴡɴᴇʀ :** {client.me.mention}" % (duration)
@@ -92,7 +92,7 @@ async def pingme(client: Client, message: Message):
 
 async def peler_function(message: Message, answers):
     msg = (
-        f"𝐃ɪᴄᴛᴀᴛᴏʀ 𝐔sᴇʀ𝐁ᴏᴛ \n"
+        f"𝐀ηѕн 𝐔sᴇʀ𝐁ᴏᴛ \n"
         "ㅤㅤ𝐒тαтʋƨ : 𝐔вσт 𝐀cтιʏɛ \n"
         f"ㅤㅤㅤㅤ𝐌σ∂ʋℓɛƨ:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤ𝐁σт 𝐕ɛяƨισи: {BOT_VER} \n"
