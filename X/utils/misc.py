@@ -147,4 +147,4 @@ async def extract_args_arr(message, markdown=True):
     return extract_args(message, markdown).split()
 
 
-# SAIFDEAD
+# ANSHXD
