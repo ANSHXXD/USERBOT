@@ -99,7 +99,7 @@ async def pingme(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await message.reply_text(
-        f"➥ **𝐃ɪᴄᴛᴀᴛᴏʀ 𝐔sᴇʀ𝐁ᴏᴛ 𝐏ᴏɴɢ !!**\n"
+        f"➥ **𝐀ηѕн 𝐔sᴇʀ𝐁ᴏᴛ 𝐏ᴏɴɢ !!**\n"
         f"**├• ** `%sms`\n"
         f"╰•** 𝐌ᴀsᴛᴇʀ :** {client.me.mention}" % (duration)
     )
@@ -114,7 +114,7 @@ async def pink(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await X.edit(
-        f"**➥ 𝐃ɪᴄᴛᴀᴛᴏʀ 𝐔sᴇʀ𝐁ᴏᴛ**\n"
+        f"**➥ 𝐀ηѕн 𝐔sᴇʀ𝐁ᴏᴛ**\n"
         f"**├• ᴘɪɴɢ   :** "
         f"`%sms` \n"
         f"**├•  Uptime  :** "
