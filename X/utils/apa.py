@@ -61,5 +61,5 @@ async def resp_post(url: str, *args, **kwargs):
     return await session.post(url, *args, **kwargs)
 
 
-# SAIFDEAD
+# ANSHXD
     
